@@ -1,7 +1,9 @@
 ﻿namespace CodeFirst.Migrations
 {
     using System;
+    using System.Collections.Generic;
     using System.Data.Entity;
+    using System.Data.Entity.Core.Metadata.Edm;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
@@ -18,6 +20,8 @@
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method
             //  to avoid creating duplicate seed data.
+
+          
         }
     }
 }

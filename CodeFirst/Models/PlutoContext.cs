@@ -12,6 +12,7 @@ namespace CodeFirst.Models
         public DbSet<Author> Author { get; set; }
         public DbSet<Tag> Tags { get; set; }
 
+
         // Since We have given the the name of connection string diferent , we have broken the convention so we have to tell the Entity FrameWork explicity what the name of connection string is
         //so here we create a contructor and simply call the base contructor
         public PlutoContext()
