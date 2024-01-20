@@ -132,6 +132,7 @@
     <Compile Include="Author.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Course.cs" />
+    <Compile Include="EntityConfigurations\CourseConfiguration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -174,6 +175,14 @@
     <Compile Include="Migrations\202401160523332_DeleteCategoryTable.cs" />
     <Compile Include="Migrations\202401160523332_DeleteCategoryTable.designer.cs">
       <DependentUpon>202401160523332_DeleteCategoryTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202401170634280_DataAnnotationsAdded.cs" />
+    <Compile Include="Migrations\202401170634280_DataAnnotationsAdded.designer.cs">
+      <DependentUpon>202401170634280_DataAnnotationsAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202401171153331_ChangeTableNameToCourseTag.cs" />
+    <Compile Include="Migrations\202401171153331_ChangeTableNameToCourseTag.designer.cs">
+      <DependentUpon>202401171153331_ChangeTableNameToCourseTag.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
@@ -296,6 +305,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202401160523332_DeleteCategoryTable.resx">
       <DependentUpon>202401160523332_DeleteCategoryTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401170634280_DataAnnotationsAdded.resx">
+      <DependentUpon>202401170634280_DataAnnotationsAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401171153331_ChangeTableNameToCourseTag.resx">
+      <DependentUpon>202401171153331_ChangeTableNameToCourseTag.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
